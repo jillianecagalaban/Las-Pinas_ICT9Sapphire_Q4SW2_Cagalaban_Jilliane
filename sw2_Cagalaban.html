@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+<style>
+ .A{
+  background-color: burlywood;
+  background-size: 30px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: Goudy Old Style;
+  background-image: url(file:///C:/Users/Joel/Documents/ICT%204TH%20QUARTER/nanami.png);
+  background-repeat: no-repeat;
+
+}
+ .B{
+  background-color: beige;
+  background-size: 30px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: Goudy Old Style;
+  background-image: url(file:///C:/Users/Joel/Documents/ICT%204TH%20QUARTER/inumaki2.png);
+  background-repeat: no-repeat;
+}
+ .C{
+  background-color: beige;
+  background-size: 30px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: Goudy Old Style;
+  background-image: url(file:///C:/Users/Joel/Documents/ICT%204TH%20QUARTER/inumaki2.png);
+  background-repeat: no-repeat;
+}
+ .D{
+  background-color: burlywood;
+  background-size: 30px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: Goudy Old Style;
+  background-image: url(file:///C:/Users/Joel/Documents/ICT%204TH%20QUARTER/nanami.png);
+  background-repeat: no-repeat;
+}
+.h1{
+    font-family: Garamond;
+    color: burlywood;
+    font-size: 40px;
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/2b/59/44/2b5944d2880cb7a77ff786d98b4b0039.jpg);
+    background-size:100%;
+}
+</style>
+<h1 class="h1">⚔︎ Math Challenge (JJK EDITION!) ⚔︎</h1>
+<img src="https://media.tenor.com/dZdcS84CrOEAAAAi/nanami-kento-spinning.gif" height="350" width="200">
+
+</head>
+<br><br>
+<body align="center">
+<br> <br>
+    <form align="center">
+
+        Enter variable x: <input type="text" id="num1">
+        Enter variable y: <input type="text" id="num2">
+        </p1>
+        </form>
+<div> <br>
+
+<button class="A"  onclick="plus()">𓆩⟡𓆪 Sum + 𓆩⟡𓆪</button>
+<button class="B" onclick="minus()">𓆩⟡𓆪 Subtract - 𓆩⟡𓆪</button>
+<br>
+<button class="C" onclick="multi()">𓆩⟡𓆪 Multiply * 𓆩⟡𓆪</button>
+<button class="D" onclick="div()">𓆩⟡𓆪 Divide / 𓆩⟡𓆪</button>
+</div>
+<script type="text/javascript">
+        function plus(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+                var sum = Number(num1) + Number(num2);
+            window.alert("The sum is: "+ sum)
+        }
+        function minus(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+                var diff = Number(num1) - Number(num2);
+            window.alert("The sum is: "+ diff)
+        }
+        function multi(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+                var multi = Number(num1) * Number(num2);
+            window.alert("The sum is: "+ multi)
+        }
+        function div(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+                var div = Number(num1) / Number(num2);
+            window.alert("The sum is: "+ div)
+        }
+    </script> 
+
+</body>
+</html>
